@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="461.0" prefWidth="639.0" style="-fx-background-color: #3f3d3c;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AboutController">
+   <children>
+      <StackPane layoutX="195.0" layoutY="21.0" AnchorPane.bottomAnchor="339.0" AnchorPane.leftAnchor="195.0" AnchorPane.rightAnchor="219.0" AnchorPane.topAnchor="21.0">
+         <children>
+            <ImageView blendMode="HARD_LIGHT" fitHeight="101.0" fitWidth="225.0">
+               <image>
+                  <Image url="@../images/a5646846aa513b35-free-free-colorful-borders-download-free-clip-art-free-clip-art-on-clipart-library.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </StackPane>
+      <StackPane layoutX="449.0" layoutY="43.0" AnchorPane.bottomAnchor="354.0" AnchorPane.leftAnchor="449.0" AnchorPane.rightAnchor="121.0" AnchorPane.topAnchor="43.0">
+         <children>
+            <ImageView blendMode="LIGHTEN" fitHeight="64.0" fitWidth="69.0">
+               <image>
+                  <Image url="@../images/757d7164-b17e-4292-a7f6-d9d9da238829.jpeg" />
+               </image>
+            </ImageView>
+         </children>
+      </StackPane>
+      <StackPane layoutX="207.0" layoutY="31.0" AnchorPane.bottomAnchor="349.0" AnchorPane.leftAnchor="207.0" AnchorPane.rightAnchor="232.0" AnchorPane.topAnchor="31.0">
+         <children>
+            <ImageView fitHeight="81.0" fitWidth="200.0">
+               <image>
+                  <Image url="@../images/cf063b8f-3bd3-4d7d-a7ed-f40551ea218d.jpeg" />
+               </image>
+            </ImageView>
+         </children>
+      </StackPane>
+      <StackPane layoutX="103.0" layoutY="44.0" AnchorPane.bottomAnchor="353.0" AnchorPane.leftAnchor="103.0" AnchorPane.rightAnchor="467.0" AnchorPane.topAnchor="44.0">
+         <children>
+            <ImageView blendMode="LIGHTEN" fitHeight="64.0" fitWidth="69.0">
+               <image>
+                  <Image url="@../images/757d7164-b17e-4292-a7f6-d9d9da238829.jpeg" />
+               </image>
+            </ImageView>
+         </children>
+      </StackPane>
+      <StackPane layoutX="54.0" layoutY="144.0" AnchorPane.bottomAnchor="109.0" AnchorPane.leftAnchor="54.0" AnchorPane.rightAnchor="33.0" AnchorPane.topAnchor="144.0">
+         <children>
+            <Label prefHeight="208.0" prefWidth="552.0" text="The goal is to tap the screen, which will make the ball  move up.Ahead of you are obstacles that can move and rotate in challenging ways that are coloured the same. Your goal is to move through the obstacles, but you are only able to pass through the colour that your ball resembles , otherwise you are out.After you pass any colour changing obstacle, the colour of ball  will change to that of the obstacle.As you progress, the challenges will become more difficult and diverse. It’s difficult to even get to 15 points.So try your luck and see how it goes." textFill="#87a0a1" wrapText="true">
+               <effect>
+                  <Blend />
+               </effect>
+               <font>
+                  <Font name="DejaVuMathTeXGyre-Regular" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <StackPane layoutX="242.0" layoutY="337.0" AnchorPane.bottomAnchor="67.0" AnchorPane.leftAnchor="242.0" AnchorPane.rightAnchor="234.0" AnchorPane.topAnchor="337.0">
+         <children>
+            <Label prefHeight="57.0" prefWidth="163.0" text="PRODUCED BY" textFill="#b0accc" underline="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <StackPane layoutX="254.0" layoutY="391.0" AnchorPane.bottomAnchor="34.0" AnchorPane.leftAnchor="254.0" AnchorPane.rightAnchor="240.0" AnchorPane.topAnchor="391.0">
+         <children>
+            <Label prefHeight="36.0" prefWidth="145.0" text="ANMOL KAUSHIK" textFill="#b0accc">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <StackPane layoutX="250.0" layoutY="420.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="237.0" AnchorPane.topAnchor="420.0">
+         <children>
+            <Label prefHeight="36.0" prefWidth="152.0" text="ADITYA VARDHAN" textFill="#b0accc">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <StackPane fx:id="k1" layoutX="515.6972045898438" layoutY="361.5982971191406" AnchorPane.bottomAnchor="31.401702880859375" AnchorPane.leftAnchor="515.6972045898438" AnchorPane.rightAnchor="50.30279541015625" AnchorPane.topAnchor="361.5982971191406">
+         <children>
+            <Group fx:id="g1">
+               <children>
+                  <Rectangle fx:id="r1" arcHeight="20.0" arcWidth="30.0" fill="DODGERBLUE" height="70.0" layoutX="10.57977294921875" layoutY="-3.738861083984375" rotate="-153.4" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="14.0" />
+                  <Rectangle fx:id="r2" arcHeight="20.0" arcWidth="30.0" fill="#dd1cca" height="70.0" layoutX="43.74102783203125" layoutY="-4.5228271484375" rotate="149.6" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="14.0" />
+                  <Rectangle fx:id="r3" arcHeight="20.0" arcWidth="30.0" fill="#dfff1f" height="70.0" layoutX="27.16009521484375" layoutY="24.623687744140625" rotate="-91.3" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="14.0" />
+               </children>
+            </Group>
+         </children>
+      </StackPane>
+      <StackPane layoutX="88.40505981445312" layoutY="359.2618713378906" AnchorPane.bottomAnchor="29.738128662109375" AnchorPane.leftAnchor="88.40505981445312" AnchorPane.rightAnchor="478.5949401855469" AnchorPane.topAnchor="359.2618713378906">
+         <children>
+            <Group fx:id="g2">
+               <children>
+                  <Rectangle fx:id="r11" arcHeight="20.0" arcWidth="30.0" fill="DODGERBLUE" height="70.0" layoutX="-1.42022705078125" layoutY="-3.738861083984375" rotate="-0.40000000000000036" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="14.0" />
+                  <Rectangle fx:id="r21" arcHeight="20.0" arcWidth="30.0" fill="#e421ba" height="70.0" layoutX="27.74102783203125" layoutY="-31.5228271484375" rotate="-90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="14.0" />
+                  <Rectangle fx:id="r31" arcHeight="20.0" arcWidth="30.0" fill="#8e219a" height="70.0" layoutX="27.16009521484375" layoutY="24.623687744140625" rotate="-89.3" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="14.0" />
+                  <Rectangle fx:id="r211" arcHeight="20.0" arcWidth="30.0" fill="#bac912" height="70.0" layoutX="56.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="14.0" />
+               </children>
+            </Group>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

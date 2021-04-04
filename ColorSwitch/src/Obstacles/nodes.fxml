@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Pane prefHeight="678.0" prefWidth="1292.0" style="-fx-background-color: #3f3d3d;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Polygon fx:id="star" fill="WHITE" layoutX="350.0" layoutY="521.5" pickOnBounds="true" points="-25.0, -55.0, -11.0, -63.35582733154297, -29.0, -63.3558349609375, -35.0, -79.95581817626953, -41.0, -63.3558349609375, -59.0, -63.3558349609375, -44.7, -55.0, -51.0, -38.0, -35.3, -51.0, -19.0, -37.5" rotate="180.0" scaleX="0.7" scaleY="0.7" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Button layoutX="527.0" layoutY="566.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="188.0" styleClass="ipad-grey" stylesheets="@../application/custom.css" text="Button" />
+      <Arc fx:id="s1" blendMode="LIGHTEN" fill="#3f3d3c" layoutX="323.0" layoutY="577.5" length="90.0" radiusX="70.0" radiusY="70.0" stroke="#ffaec8e0" strokeLineCap="BUTT" strokeWidth="14.0" />
+      <Arc fx:id="s4" blendMode="LIGHTEN" fill="#3f3d3c" layoutX="323.0" layoutY="577.5" length="90.0" radiusX="70.0" radiusY="70.0" startAngle="90.0" stroke="#983ae9" strokeLineCap="BUTT" strokeWidth="14.0" />
+      <Arc fx:id="s2" blendMode="LIGHTEN" fill="#3f3d3c" layoutX="323.0" layoutY="577.5" length="90.0" radiusX="70.0" radiusY="70.0" startAngle="270.0" stroke="#00a8f3" strokeLineCap="BUTT" strokeWidth="14.0" />
+      <Arc fx:id="s3" blendMode="LIGHTEN" fill="#3f3d3c" layoutX="323.0" layoutY="577.5" length="90.0" radiusX="70.0" radiusY="70.0" startAngle="180.0" stroke="#fff200" strokeLineCap="BUTT" strokeWidth="14.0" />
+      <Arc fx:id="r11" fill="#3f3d3c" layoutX="617.0" layoutY="97.5" length="90.0" radiusX="70.0" radiusY="70.0" stroke="#31a5da" strokeLineCap="BUTT" strokeWidth="11.0" />
+      <Arc fx:id="r31" fill="#3f3d3c" layoutX="617.0" layoutY="97.5" length="90.0" radiusX="70.0" radiusY="70.0" startAngle="180.0" stroke="#983ae9" strokeLineCap="BUTT" strokeWidth="11.0" />
+      <Arc fx:id="r21" fill="#3f3d3c" layoutX="617.0" layoutY="97.5" length="90.0" radiusX="70.0" radiusY="70.0" startAngle="270.0" stroke="#fff200" strokeLineCap="BUTT" strokeWidth="11.0" />
+      <Arc fx:id="s11" blendMode="LIGHTEN" fill="#3f3d3c" layoutX="617.0" layoutY="97.5" length="90.0" radiusX="90.0" radiusY="90.0" stroke="#ffaec8e0" strokeLineCap="BUTT" strokeWidth="14.0" />
+      <Arc fx:id="s41" blendMode="LIGHTEN" fill="#3f3d3c" layoutX="617.0" layoutY="97.5" length="90.0" radiusX="90.0" radiusY="90.0" startAngle="90.0" stroke="#983ae9" strokeLineCap="BUTT" strokeWidth="14.0" />
+      <Arc fx:id="s21" blendMode="LIGHTEN" fill="#3f3d3c" layoutX="617.0" layoutY="97.5" length="90.0" radiusX="90.0" radiusY="90.0" startAngle="270.0" stroke="#00a8f3" strokeLineCap="BUTT" strokeWidth="14.0" />
+      <Arc fx:id="s31" blendMode="LIGHTEN" fill="#3f3d3c" layoutX="617.0" layoutY="97.5" length="90.0" radiusX="90.0" radiusY="90.0" startAngle="180.0" stroke="#fff200" strokeLineCap="BUTT" strokeWidth="14.0" />
+      <Arc fx:id="r41" fill="#3f3d3c" layoutX="617.0" layoutY="97.5" length="90.0" radiusX="70.0" radiusY="70.0" startAngle="90.0" stroke="#ffaec8" strokeLineCap="BUTT" strokeWidth="11.0" />
+      <Arc fill="#00a8f3" layoutX="274.0" layoutY="377.0" length="90.0" radiusX="15.0" radiusY="15.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" type="ROUND" />
+      <Arc fill="#fff200" layoutX="274.0" layoutY="377.0" length="90.0" radiusX="15.0" radiusY="15.0" startAngle="270.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" type="ROUND" />
+      <Arc fill="#ffaec8" layoutX="274.0" layoutY="377.0" length="90.0" radiusX="15.0" radiusY="15.0" startAngle="180.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" type="ROUND" />
+      <Arc fill="#983ae9" layoutX="274.0" layoutY="377.0" length="90.0" radiusX="15.0" radiusY="15.0" startAngle="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" type="ROUND" />
+      <Group layoutX="45.0" layoutY="333.0">
+         <children>
+            <Rectangle arcHeight="20.0" arcWidth="30.0" fill="#00a8f3" height="188.0" layoutX="41.93040466308594" layoutY="8.589553833007812" rotate="30.6" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="20.0" />
+            <Rectangle arcHeight="20.0" arcWidth="30.0" fill="#fff200" height="188.0" layoutX="82.0" layoutY="82.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="20.0" />
+            <Rectangle arcHeight="20.0" arcWidth="30.0" fill="#ffaec8" height="188.0" layoutX="126.0" layoutY="9.0" rotate="150.6" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="20.0" />
+         </children>
+      </Group>
+      <Group layoutX="475.0" layoutY="334.0">
+         <children>
+            <Rectangle arcHeight="20.0" arcWidth="30.0" fill="#ffaec8" height="188.0" layoutX="162.0" layoutY="1.0" rotate="179.6" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="25.0" />
+            <Rectangle arcHeight="20.0" arcWidth="30.0" fill="#00a8f3" height="188.0" layoutX="-0.0695953369140625" layoutY="0.5895538330078125" rotate="-0.3999999999999986" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="25.0" />
+            <Rectangle arcHeight="20.0" arcWidth="30.0" fill="#fff200" height="188.0" layoutX="82.0" layoutY="82.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="25.0" />
+            <Rectangle arcHeight="20.0" arcWidth="30.0" fill="#983ae9" height="188.0" layoutX="79.0" layoutY="-81.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="25.0" />
+         </children>
+      </Group>
+      <Group layoutX="167.0" layoutY="-22.0">
+         <children>
+            <Rectangle arcHeight="20.0" arcWidth="30.0" fill="#00a8f3" height="53.0" layoutX="115.0" layoutY="52.49919128417969" rotate="270.0" scaleX="1.5" scaleY="1.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="13.0" />
+            <Rectangle arcHeight="20.0" arcWidth="30.0" fill="#983ae9" height="53.0" layoutX="25.5" layoutY="52.99919128417969" rotate="90.0" scaleX="1.5" scaleY="1.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="13.0" />
+            <Rectangle arcHeight="20.0" arcWidth="30.0" fill="#ffaec8" height="53.0" layoutX="69.77728271484375" layoutY="12.430160522460938" rotate="179.6" scaleX="1.5" scaleY="1.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="13.0" />
+            <Rectangle arcHeight="20.0" arcWidth="30.0" fill="#fff200" height="53.0" layoutX="70.13882446289062" layoutY="91.96539306640625" rotate="0.20000000000000284" scaleX="1.5" scaleY="1.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="13.0" />
+         </children>
+      </Group>
+      <Rectangle fx:id="r1" arcHeight="20.0" arcWidth="30.0" fill="#983ae9" height="172.0" layoutX="118.0" layoutY="126.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="13.0" />
+      <Rectangle fx:id="r2" arcHeight="20.0" arcWidth="30.0" fill="#ffaec8" height="139.0" layoutX="268.0" layoutY="130.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="13.0" />
+      <Rectangle fx:id="r3" arcHeight="20.0" arcWidth="30.0" fill="#fff200" height="166.0" layoutX="358.0" layoutY="111.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="13.0" />
+      <Rectangle fx:id="r4" arcHeight="20.0" arcWidth="30.0" fill="#00a8f3" height="139.0" layoutX="191.0" layoutY="136.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="13.0" />
+      <Line fx:id="l1" blendMode="LIGHTEN" endX="261.1999816894531" layoutX="-63.0" layoutY="206.0" startX="26.5" stroke="#3d3f3c" />
+      <Rectangle fx:id="r111" arcHeight="20.0" arcWidth="30.0" fill="#ffaec8" height="104.0" layoutX="191.0" layoutY="138.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="13.0" />
+      <Rectangle fx:id="r411" arcHeight="20.0" arcWidth="30.0" fill="#983ae9" height="104.0" layoutX="358.0" layoutY="142.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="13.0" />
+      <Rectangle fx:id="r311" arcHeight="20.0" arcWidth="30.0" fill="#00a8f3" height="104.0" layoutX="268.0" layoutY="140.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="13.0" />
+      <Rectangle fx:id="r211" arcHeight="20.0" arcWidth="30.0" fill="#fff200" height="104.0" layoutX="118.0" layoutY="137.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="13.0" />
+   </children>
+</Pane>
