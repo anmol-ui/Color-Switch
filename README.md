@@ -5,7 +5,7 @@ Made as a part of project in Advanced Programming at IIITD.
 ### Working Demo
 https://youtu.be/SmS0kaEu2cw
 
-## How To Play
+### How To Play
 1. Clone this repository using the command : `git clone https://github.com/anmol-ui/Color-Switch.git`
-2. Or download the zip file and run using JavaFX.
+2. Run the application using JavaFX.
 
